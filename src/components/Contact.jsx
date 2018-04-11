@@ -44,12 +44,12 @@ class Contact extends Component {
             <p>Address: {this.props.address}</p>
             <Button
               value="Delete"
-              btnClassList="btn btn-danger mr-2"
+              className="btn btn-danger mr-2"
               onClick={this.handleDelete}
             />
             <Button
               value="Edit"
-              btnClassList="btn btn-default"
+              className="btn btn-default"
               data-toggle="modal"
               data-target={`#editContact${this.props.id}`}
             />
